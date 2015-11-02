@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40">
+<BorderPane xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <GridPane BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -31,8 +30,8 @@
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" text="Sit" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" text="Leave" GridPane.columnIndex="4" GridPane.rowIndex="1" />
          </children>
       </GridPane>
    </top>
@@ -59,8 +58,8 @@
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" text="Sit" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" text="Leave" GridPane.columnIndex="1" GridPane.rowIndex="4" />
          </children>
       </GridPane>
    </left>
@@ -70,8 +69,8 @@
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="132.0" minWidth="10.0" prefWidth="105.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="95.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
@@ -88,17 +87,17 @@
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <MenuBar GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Button mnemonicParsing="false" text="Start Game" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <MenuBar prefHeight="29.0" prefWidth="132.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
               <menus>
-                <Menu mnemonicParsing="false" text="Help">
+                <Menu mnemonicParsing="false" text="Game Type">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="About" />
-                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
-                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
-                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
-                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
-                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    <MenuItem mnemonicParsing="false" text="5 card joker poker" />
+                        <MenuItem mnemonicParsing="false" text="5 card wild poker" />
+                        <MenuItem mnemonicParsing="false" text="5 card draw" />
+                        <MenuItem mnemonicParsing="false" text="7 card draw" />
+                        <MenuItem mnemonicParsing="false" text="Texas Hold'em" />
+                        <MenuItem mnemonicParsing="false" text="Omaha" />
                   </items>
                 </Menu>
               </menus>
@@ -129,8 +128,8 @@
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="5" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-            <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" text="Sit" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" text="Leave" GridPane.rowIndex="4" />
          </children>
       </GridPane>
    </right>
@@ -157,8 +156,8 @@
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1" />
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="4" />
+            <Button mnemonicParsing="false" text="Sit" GridPane.columnIndex="2" />
+            <Button mnemonicParsing="false" text="Leave" GridPane.columnIndex="4" />
          </children>
       </GridPane>
    </bottom>
